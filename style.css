@@ -1,0 +1,75 @@
+body
+{
+	color: beige;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image:Linear-gradient(150deg, rgba(34, 188, 199, 0.8), rgba(235, 128, 128, 0.822) 70.71%),Linear-gradient(127deg, rgb(167, 130, 216), black 70.71%),Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); ;
+}
+.navbar
+{
+	display: flex;
+	justify-content:center;
+}
+h1
+{
+	text-orientation: uppercase;
+}
+ul li{
+	display: inline-block;
+	list-style-type:none;
+	}	
+ul li a {
+	display:inline-block;   
+	width:250px;
+	color:#DCDCDC;
+	text-decoration:none;
+	text-align:center;
+	font-size: 25px;
+	}
+	li a:hover 
+	{
+		color:rgb(13, 12, 87) !important;	}
+	body 
+
+.logo
+{
+	margin-top:10px;
+}
+.course1
+{ 
+	width:250px;
+	height:250px;
+	margin-left:50px;
+	display:inline-block;
+	background-size: cover;
+	overflow:hidden;
+}
+.course2
+{ 
+	width:250px;
+	height:250px;
+	margin-left:50px;
+	display:inline-block;
+	background-size: cover;
+	overflow:hidden;
+}
+.course3
+{ 
+	width:250px;
+	height:250px;
+	margin-left:50px;
+	display:inline-block;
+	background-size: cover;
+	overflow:hidden;
+}
+.course1:hover{
+    background-color:rgba(34, 188, 199, 0.8);
+    opacity: 0.5;
+}
+.course2:hover{
+    background-color:rgba(34, 188, 199, 0.8);
+    opacity: 0.5;
+}
+.course3:hover{
+    background-color:rgba(34, 188, 199, 0.8);
+    opacity: 0.5;
+}	
